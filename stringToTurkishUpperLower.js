@@ -1,5 +1,4 @@
 String.prototype.turkishToUpper = function () {
-    // -> Just for one word
     // -> "çağla çağla" -> "ÇAĞLA ÇAĞLA"
 
     var string = this;
@@ -19,7 +18,6 @@ String.prototype.turkishToUpper = function () {
 }
 
 String.prototype.turkishToLower = function () {
-    // -> Just for one word
     // -> "çağla ÇAĞLA ÇAğla" -> "çağla çağla çağla"
 
     var string = this;
