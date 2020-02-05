@@ -41,5 +41,5 @@ String.prototype.turkishCapitalize = function () {
     // -> All words in a sentence
     // -> "çağla çağla" -> "Çağla Çağla"
 
-    return this.turkishToLower().split(" ").map(function (item) { return item[0].turkishToUpper() + item.substring(1) }).join(" ");;
+    return this.turkishToLower().split(" ").map(item => item[0].turkishToUpper() + item.substring(1) ).join(" ");
 }
