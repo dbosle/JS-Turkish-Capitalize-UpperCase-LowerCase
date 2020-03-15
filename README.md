@@ -10,4 +10,6 @@ str.turkishToUpper(); // -> "TÜRKÇE STRİNG İFADELER, ÇAĞLA GELMİŞ Mİ?"
 str.turkishToLower(); // -> "türkçe string ifadeler, çağla gelmiş mi?"
 
 str.turkishCapitalize(); // -> "Türkçe String İfadeler, Çağla Gelmiş Mi?"
+
+//-> Sadece cümlenin ilk harfini büyütme yazılacak
 ```
